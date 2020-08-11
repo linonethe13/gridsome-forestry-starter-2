@@ -10,6 +10,8 @@ sections:
   create: documents
   match: "**/*.md"
   templates:
+  - theme-configuration
+  - journal
   - project
 - type: directory
   path: journal
@@ -17,6 +19,7 @@ sections:
   create: documents
   match: "**/*.md"
   templates:
+  - theme-configuration
   - journal
 - type: document
   path: data/theme.json
